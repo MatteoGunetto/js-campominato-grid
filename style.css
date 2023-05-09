@@ -1,8 +1,10 @@
+/* Regole generali */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+/* Regole Header */
 header{
     display: flex;
     justify-content: space-between;
@@ -10,7 +12,7 @@ header{
     padding-inline: 22px;
     height: 40px;
 }
-
+/* Regole main */
 main{
     display: flex;
     justify-content: center;
@@ -18,14 +20,14 @@ main{
     height: calc(100vh - 80px);
     background-color: #7FFFD4;
 }
-
+/* Regole footer */
 footer{
     display: flex;
     align-items: center;
     padding-inline: 22px;
     height: 40px;
 }
-
+/* Regole elementi js */
 .grid{
     display: flex;
     flex-wrap: wrap;
